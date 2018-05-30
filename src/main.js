@@ -4,7 +4,15 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import globalCompTest from "./components/specialLine"
+
+Vue.component("globallyComp", globalCompTest)
+
+console.log('myappstarted')
+
 Vue.config.productionTip = false
+
+
 
 /* eslint-disable no-new */
 new Vue({
