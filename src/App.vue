@@ -1,9 +1,12 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <router-link to="/functionTester">Router link die app wird nicht resetted sondern nur neu gerendert also kein server request</router-link>
     <router-view/>
   </div>
 </template>
+
+// router view ist das element welches den inhalt des routers handlet also eine art renderte box für den inhalt
 
 <script>
 export default {
