@@ -6,6 +6,7 @@ import myLogo from '@/components/mylogo'
 import passData from '@/components/parentComponent'
 import funcTest from '@/components/funcTest'
 import user from '@/components/user'
+import cube from '@/components/cube'
 
 Vue.use(Router)
 
@@ -32,6 +33,10 @@ export default new Router({
     {
       path: '/user/:username',
       component: user
+    },
+    {
+      path: '/cube',
+      component: cube
     }
   ]
 })
